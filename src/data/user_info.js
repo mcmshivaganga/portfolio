@@ -3,7 +3,7 @@ const info = {
         name: "SHIVAGANGA M",
         description: "Hello! I'm Shivaganga M, a passionate full-stack developer with a strong focus on continuous learning and problem solving. I thrive in dynamic environments where i can face new challenges and apply innovative solution driven by curiosity, I'm always eager to learn new technologies and expand my skill set. I belive in creating meaningful, high-impact projects, and i am deicated to delivering results through efficient, scalable and well-structured solutions.",
         role: "FRONTEND DEVELOPER",
-        photo: "gangas.jpg",
+        photo: "Dp.jpg",
         email: "shivagangamcm@gmail.com",
         // tracking_id: "G-BNTTBGHXSC"
     },
@@ -20,6 +20,8 @@ const info = {
 		// facebook: "https://www.facebook.com/shivaganga",
         telegram: "https://telegram.me/GangaM"
     },
+    // ensure experience key exists to avoid runtime errors when mapping
+    experience: [],
     // experience: [
     //     {
     //         company: "Innovarsity",
@@ -123,7 +125,7 @@ const info = {
             school: "KALPATARU INSTITUTE OF TECHNOLOGY ",
             degree: "BE IN COMPUTER SCIENCE AND ENGINEERING",
             year: "2023 - Present",
-            image: "ki.jpg"
+            image: "kitslogo.jpg"
         },
         {
             school: "SHREE SIDDARAMESHWARA POLYTECHNIC COLLEGE ",

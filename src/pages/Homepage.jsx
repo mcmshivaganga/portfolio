@@ -469,7 +469,7 @@ function Homepage() {
                     <div className="max-w-6xl mx-auto">
                         <h4 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 dark:text-gray-100 mb-12">Experience</h4>
                         <div className="relative border-l-2 border-blue-500 dark:border-blue-400 pl-2">
-                            {user_info.experience.map((exp, index) => (
+                            {(user_info.experience || []).map((exp, index) => (
                                 <ExperienceItem key={index} experience={exp} />
                             ))}
                         </div>
